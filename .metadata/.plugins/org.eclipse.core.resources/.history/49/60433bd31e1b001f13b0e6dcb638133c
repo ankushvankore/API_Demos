@@ -1,0 +1,10 @@
+package com.RestDemos;
+
+import org.testng.annotations.Test;
+
+public class D10PostDemo1 {
+  @Test
+  public void addingRecord() {
+	  
+  }
+}

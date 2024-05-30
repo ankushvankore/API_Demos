@@ -1,0 +1,15 @@
+package com.RestDemos;
+
+import org.testng.annotations.Test;
+
+import io.restassured.RestAssured;
+import io.restassured.response.Response;
+
+public class D01FirstTest {
+  @Test
+  public void test1() {
+	  Response res = RestAssured.get("https://www.google.com");
+	  int sCode = res.getStatusCode();
+	  System.out.println(sCode);
+  }
+}

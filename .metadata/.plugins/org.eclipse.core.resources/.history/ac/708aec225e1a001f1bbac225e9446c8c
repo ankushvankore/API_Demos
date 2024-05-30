@@ -1,0 +1,9 @@
+package com.RestDemos;
+
+import org.testng.annotations.Test;
+
+public class D07MultipleTests {
+  @Test
+  public void f() {
+  }
+}

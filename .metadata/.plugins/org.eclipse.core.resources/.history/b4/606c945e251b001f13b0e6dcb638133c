@@ -1,0 +1,9 @@
+package com.RestDemos;
+
+import org.testng.annotations.Test;
+
+public class D12PutDemo {
+  @Test
+  public void f() {
+  }
+}
